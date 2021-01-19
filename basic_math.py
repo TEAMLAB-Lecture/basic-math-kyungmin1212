@@ -69,7 +69,7 @@ def get_mean(number_list):
     hap=sum(number_list)
     hap_len=len(number_list)
     mean = hap/hap_len
-    return int(mean)
+    return mean
 
 
 def get_median(number_list):
@@ -102,4 +102,4 @@ def get_median(number_list):
     else:
         half=list_len//2
         median=number_list[half]
-    return int(median)
+    return median
